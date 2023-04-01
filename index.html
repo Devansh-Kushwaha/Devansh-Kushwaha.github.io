@@ -4,44 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <div class="titles">
+    <title>Portfolio</title></div>
     <link rel="stylesheet" href="style\style.css">
 </head>
 <body>
     
     <div class="top">
-        <a href="" class="title">Portfolio</a>
+        <a href="#portfolio" class="title">Portfolio</a>
         <nav class="navbar">
-        <div class="topd">
-        <a href="home.html" class="on">HOME</a> 
-        <a href="about.html">ABOUT</a>
-        <a href="portfolio.html">PORTFOLIO</a>
-        <a href="contact.html">CONTACT US</a>
+       
+        <a href="#hom" class="on">HOME</a> 
+        <a href="#about">ABOUT</a>
+        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#contact">CONTACT ME</a>
         <a href=""></a>
-        </div>
-            
+      
         </nav>
     </div>
     <section class="hom">
         <div class="hom-con">
+            <section>
             <h3>Hola!, It's me</h3>
             <h1>Devansh Kushwaha</h1>
-            <h3>And I am a <span>Programmer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
- <div class="talents">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
+            <h3>And I am a <span>Web Developer</span></h3>
+            <p>B-Tech CSE, Indian Institute Of Information Technology Surat</p>
+        </section> 
         </div>  
         <div class="myimage">
-            <img src="" alt="My Image">
+            <img src="asset\Picsart_23-03-31_07-50-28-402.png" alt="">
         </div>
     </section>               
     <section class="about" id="about">
-        <div class="aboutimg"></div>
+        <div class="about-img">
 
-    </section>                                                                           
+
+                <img src="asset\Picsart_23-03-31_01-48-30-158.png">
+            </div>
+      
+    <div class="about-content">
+        <h2 class="heading">About <span> Me</span></h2>
+        <h3>Web Developer!</h3>
+
+        <p>Full stack developer specialized in Python and C Languages. Right  now, completing my Bachelor of Technology degree from Indian Institute of Information Technology, Surat. Also a full stack website developern proficient in HTML, CSS, Javascript, PHP & Node JS. </p>
+    </div> 
+    <br>
+    <br>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Recent <span>Projects</span></h2>
+        <div class="portfolio-container">
+            
+                <div class="portfolio-box"><section>
+                    <img src="asset\IMG_20230401_013814 (1).jpg" alt="Portfolio">
+                    <div class="portfolio-layer">
+                        <h4>Soccer Robot</h4>
+                        <p>The RoboCup Soccer Simulation 3D Competition provides a great opportunity to experiment <br>
+                            with humanoid robots without the need for investing in robot hardware. It facilitates <br>
+                            experimenting using different learning and optimization techniques by providing a <br>
+                            simulated environment</p>
+                    </div></section>
+            <div class="portfolio-box"><section>
+                <img src="https://th.bing.com/th/id/OIP.OiZhGS5AQXm2P-0WaYwPigHaEK?pid=ImgDet&rs=1" alt="Portfolio">
+                
+                <div class="portfolio-layer">
+                    <h4>Web Devs</h4>
+                    <p>Web development is the work involved in developing a website for the Internet (World Wide Web)<br>
+                       or an intranet (a private network). Web development can range from developing a simple single <br>
+                       static page of plain text to complex web applications, electronic businesses, and social network <br>
+                       services.</p>
+                </div></section>
+            </div>
+            
+            <div class="portfolio-box">
+            <section>
+                <img src="asset\2e948896757753.5eb58c727d672 (1).png" alt="Portfolio">
+                <div class="portfolio-layer">
+                    <h4>UI/UX Designing</h4>
+                    <p>UX design refers to the term “user experience design”, while UI stands for “user interface design”.<br>
+                         Both elements are crucial to a product and work closely together. But despite their professional <br>
+                         relationship, the roles themselves are quite different, referring to very different aspects of the <br>
+                         product development process and the design discipline.</p>
+                </div></section>
+            </div>
+            <div class="portfolio-box"><section>
+                <img src="asset\content-writing.png" alt="Portfolio">
+                <div class="portfolio-layer">
+                    <h4>Content Writing</h4>
+                    <p>Content writing is the process of writing, editing, and publishing content in a digital format. That <br>
+                        content can include blog posts, video or podcast scripts, ebooks or whitepapers, press releases, product<br>
+                         category descriptions, landing page or social media copy ... and more.</p>
+                </div></section>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <div class="tbox">
+                <br>
+                <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit" value="Send Message" class="btn"> Send Message</button>
+            </div>
+            </div>
+        </form>
+
+    </section>    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by WebDevs | All Rights Reserved. </p>
+        </div>
+    </footer>                                              
 </body>
 </html>
