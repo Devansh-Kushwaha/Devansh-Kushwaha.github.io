@@ -5,12 +5,16 @@ body{
 }
 
 html{
-    font-size: 62%
+    font-size: 75%;
+    scroll-behavior:smooth; 
 }
 section{
     min-height:200px;
     padding-top: 80px;
     
+}
+.titles title{
+    font-size: 40px;
 }
 .top{
     position: fixed;
@@ -20,36 +24,42 @@ section{
     
     align-items: center;
     z-index: 100;
-    justify-content: center;
+    
 }
 .title{
     font-size: 2.5rem;
     color: #fff;
     font-weight: 600;
+    padding-right: 460px;
     
 }
 .navbar a {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
     color: #fff;
-    margin-left: 4rem;
+    padding-left: 50px;
+    margin-left: 1em;
     transition:0.5s;
 }
 .navbar a:hover,
 .navbar a.on {
     color: #0ef
 }
-.topd{
-    text-align: right;
-}
+
 .hom{
-    display: flex;
+    margin-left: 5%;
+    display:flex;
     justify-content: center;
-    align-items: center;
+    
+    
 }
 .myimage img {
-    width: 53px;
+    
+    width: 600px;
+
 } 
 .hom-con h3 {
+    
+    display:inline;
     font-size: 3.2rem;
     font-weight: 700;
     
@@ -57,7 +67,7 @@ section{
 .hom-con h1 {
     font-size: 5.6rem;
     font-weight: 700;
-    line-height: 1.3; 
+ 
     
 }
 .hom-con p {
@@ -68,4 +78,129 @@ section{
 }
 span{
     color: #0ef;
+}
+.about{
+    display: flex;
+    align-items: center;
+    background: #323946;
+
+}
+.about-img img {
+    width: 600px;
+}
+.heading {
+    padding-right: 200px;
+    text-align: center;
+    font-size: 6rem;
+}
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+.about-content h3 {
+    font-size: 3.9rem;
+}
+.about-content p {
+    font-size: 2.2rem;
+    margin: 2rem;
+}
+.portfolio {
+    background: #1f242d;
+    padding-left:180px;
+}
+.portfolio h2 {
+        margin-bottom: 4rem;
+}
+.portfolio-container {
+    display:grid;
+    grid-template-columns: 3,auto;
+    align-items: center;
+    gap:2.5rem; 
+}
+.portfolio-container.portfolio-box{
+    position: relative;
+    display: flex;
+
+
+}
+.portfolio-box{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.portfolio-box img {
+    width:700px;
+    transition:0.5s ease;
+}
+.portfolio-layer h4 {
+    font-size:3rem;
+    flex: 50%
+    
+}
+.portfolio-layer p {
+    font-size: 20px;
+    margin: 0.3rem;
+}
+.portfolio-layer{
+    vertical-align: middle;
+}
+.portfolio-layer a {
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    background: #fff;
+}
+ .portfolio-box.portfolio-layer {
+    display:flex;
+    flex-direction:column;
+ }
+ .contact h2 {
+    margin-bottom: 3rem;
+ }
+ .contact form{
+    align-items: center;
+    max-width: 130rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+ }
+ .contact form .input-box {
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+ }
+ .contact h2 {
+    margin-left: 10%;
+ }
+
+ .contact form .input-box input,
+ .contact form textarea {
+    width:100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #ffffff ;
+    background: #1e1e1e;
+    border-radius: .8rem;
+    margin:.7rem;
+    resize: none;
+    }
+.contact form .input-box input {
+    width: 46%;
+}
+.tbox textarea{
+    width: 95%;
+}
+.btn{
+    display: inline-block;
+    padding: 320;
+    background-color: #0ef;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #0ef;
+    font-size: 2.2rem;
+    color:#1f242d;
+    letter-spacing: .1rem;
+    font-weight: 400;
+    padding: 15px 32px;
+    margin-top: 40px;
+
 }
